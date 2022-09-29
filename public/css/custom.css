@@ -1,0 +1,197 @@
+body { 
+    background-image: url("../img/fondos/fondo.jpg") !important;
+    background-size: cover !important;
+    background-attachment: fixed; /*Imagen fondo fija sin moverse*/
+}
+nav {
+    transition: all 1s ease !important;
+}
+.navbar{
+    background-color: rgba(238, 234, 234, 0.364)!important;
+    margin-top: 10px;
+    border: 0;
+    font-size: 17px !important;
+    font-family:Tahoma, sans-serif;
+    font-weight: bolder;
+    line-height: 2 !important;
+}
+.scroll-color {
+    background: #f1f2f4 !important;
+    transition: all 1s ease !important;
+}
+
+.navbar li a, .navbar .nav-brand{
+    color: rgba(73, 204, 196) !important;
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav li a:hover, .navbar-nav li a:active{
+    -webkit-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -moz-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -o-transition: font-size 0.3s ease, background-color 0.3s ease;
+    -ms-transition: font-size 0.3s ease, background-color 0.3s ease;
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+    font-size: 19px;
+   /* color: rgba(73, 204, 196) !important;*/
+
+}
+
+.logo{
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.inputBusqueda {
+  -webkit-appearance: button;
+  cursor: pointer;
+  color: rgba(73, 204, 196) !important;
+  border-radius: 5px;
+  border: 2px solid rgba(249, 204, 77);
+}
+
+.inputBusqueda:focus {
+    outline: none !important;
+    border-color: rgba(249, 204, 77);
+  
+}
+
+.submitBusqueda {
+    background-color: rgba(242, 245, 245, 0)!important;
+    border: none;
+    color: rgba(249, 204, 77) !important;
+    font-size: 20px;
+}
+
+.izq{
+    background-color: transparent;
+    border-color: #FFF;
+    border: 2px solid FFF;
+    border-radius: 40px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    color: rgb(249, 204, 77) !important;
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.der{
+    background-color: transparent;
+    border-color: #FFF;
+    border: 2px solid FFF;
+    border-radius: 40px;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    color: rgb(249, 204, 77) !important;
+    font-size: 90px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.inputBotones{
+    color: #FFF !important;
+    background-color: rgba(73, 204, 196);
+    border-radius: 15px;
+    border: 2px solid rgba(73, 204, 196);
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.tituloSeccion{
+    color: rgba(163, 141, 187);
+    font-size: 40px;
+    font-family:Tahoma, sans-serif;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+}
+
+.subtituloSeccion{
+    color: rgba(163, 141, 187);
+    font-size: 32px;
+    font-family:Tahoma, sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+
+.texto{
+    color: rgb(29, 29, 29);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+    
+
+}
+
+p{
+    color: rgb(29, 29, 29);
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.nombreEncargados{
+    color:  rgba(73, 204, 196);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.nombreColegiosListados{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+
+}
+
+.nombreColegiosListados:hover {
+    color: rgba(163, 141, 187) !important;
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+
+.selectInstituciones {
+    color: #FFF !important;
+    background-color: rgba(73, 204, 196);
+    border-radius: 15px;
+    border: 2px solid rgba(150, 152, 154);
+    box-shadow: none;
+    font-size: 13px;
+    font-family:Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.carousel-item{
+    text-align: center;
+}
+  
+.carousel-item img {
+    object-fit:cover;
+    object-position: center;
+    height: 300px;
+    overflow: hidden;
+}
+
+.cabecarBar{
+    font-size: 13px;
+}
